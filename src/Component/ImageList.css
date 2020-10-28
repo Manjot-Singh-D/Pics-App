@@ -1,0 +1,16 @@
+.imageList {
+  display: flex;
+  flex-wrap: wrap;
+  width: inherit;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  margin: 10px;
+}
+.imageList :hover {
+  box-shadow: 0px 0px 10px black;
+}
